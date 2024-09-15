@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./App.css";
 import data from "./data.json";
 
@@ -36,10 +36,21 @@ function transform(jsonString) {
 function App() {
   let [dataJson, setDataJson] = useState({ ...data });
 
+  useEffect(() => {
+    window.addEventListener("resize", function () {
+      document.getElementsByClassName("input-container")[0].style.height =
+        window.innerHeight - 90 + "px";
+    });
+    document.getElementsByClassName("input-container")[0].style.height =
+      window.innerHeight - 90 + "px";
+  }, []);
+
   return (
-    <div className="App">
-      <div className="Input-Container">
+    <div className="app">
+      <div className="input-container">
+        <h1>Input</h1>
         <textarea
+          className="textarea"
           value={JSON.stringify(dataJson, undefined, 4)}
           onChange={(e) => {
             try {
@@ -50,7 +61,7 @@ function App() {
           }}
         ></textarea>
         <button
-          class="mdc-button"
+          className="mdc-button"
           onClick={(e) => {
             navigator.clipboard
               .readText()
@@ -62,12 +73,14 @@ function App() {
               });
           }}
         >
-          <div class="mdc-button__ripple"></div>
-          <span class="mdc-button__label">PASTE</span>
+          <div className="mdc-button__ripple"></div>
+          <span className="mdc-button__label">📄PASTE</span>
         </button>
       </div>
-      <div className="Input-Container">
+      <div className="input-container">
+        <h1>Result</h1>
         <textarea
+          className="textarea"
           id="output"
           value={transform(
             JSON.stringify(
@@ -78,14 +91,14 @@ function App() {
           )}
         ></textarea>
         <button
-          class="mdc-button"
+          className="mdc-button"
           onClick={() => {
             document.getElementById("output").select();
             document.execCommand("copy");
           }}
         >
-          <div class="mdc-button__ripple"></div>
-          <span class="mdc-button__label">COPY</span>
+          <div className="mdc-button__ripple"></div>
+          <span className="mdc-button__label">📝COPY</span>
         </button>
       </div>
     </div>
