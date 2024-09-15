@@ -68,7 +68,7 @@ function App() {
       </div>
       <div className="Input-Container">
         <textarea
-          className="output"
+          id="output"
           value={transform(
             JSON.stringify(
               dataJson && dataJson.arg0 ? dataJson.arg0 : dataJson,
@@ -76,12 +76,11 @@ function App() {
               4
             )
           )}
-          disabled
         ></textarea>
         <button
           class="mdc-button"
           onClick={() => {
-            document.querySelector(".output").select();
+            document.getElementById("output").select();
             document.execCommand("copy");
           }}
         >
