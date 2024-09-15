@@ -1,0 +1,298 @@
+{
+  "arg0":{
+     "id":"14216982",
+     "name":"Test",
+     "characteristics":[
+        {
+           "value":"Negocio",
+           "type":"CustomerCharacteristic",
+           "name":"Customer Type",
+           "valueType":"string"
+        },
+        {
+           "value":"Creado Por",
+           "type":"CustomerCharacteristic",
+           "name":"Sale Closed By",
+           "valueType":"string"
+        },
+        {
+           "value":"AST DR",
+           "type":"CustomerCharacteristic",
+           "name":"Time Zone",
+           "valueType":"string"
+        },
+        {
+           "value":"Llamada Voz (casa, oficina o celular )",
+           "type":"CustomerCharacteristic",
+           "name":"Preferred Contact Method",
+           "valueType":"string"
+        },
+        {
+           "value":"Mañana",
+           "type":"CustomerCharacteristic",
+           "name":"Preferred Contact Time",
+           "valueType":"string"
+        }
+     ],
+     "contactMediums":[
+        {
+           "mediumType":"PrimaryPhone",
+           "characteristic":{
+              "previousPhoneNumber":"8095601541",
+              "phoneNumber":"8095601541",
+              "type":"ContactMediumCharacteristic"
+           },
+           "type":"ContactMedium"
+        },
+        {
+           "mediumType":"Address",
+           "characteristic":{
+              "addressId":"51501477",
+              "type":"ContactMediumCharacteristic"
+           },
+           "type":"ContactMedium"
+        }
+     ],
+     "engagedParty":{
+        "id":"14216982",
+        "referredType":"Organization",
+        "tradingName":"Test",
+        "organizationIdentifications":[
+           {
+              "identificationId":"000000000",
+              "type":"Identification"
+           }
+        ],
+        "partyCharacteristics":[
+           {
+              "value":"F",
+              "type":"PartyCharacteristic",
+              "name":"Customer Value",
+              "valueType":"string"
+           },
+           {
+              "value":"Construccion",
+              "type":"PartyCharacteristic",
+              "name":"Commercial Sector",
+              "valueType":"string"
+           },
+           {
+              "value":"Contrat  De Oficios Espec",
+              "type":"PartyCharacteristic",
+              "name":"Commercial Sub Sector",
+              "valueType":"string"
+           },
+           {
+              "value":"Pintura Y Empapelado, Pulido",
+              "type":"PartyCharacteristic",
+              "name":"Commercial Sub Sector Activity",
+              "valueType":"string"
+           }
+        ],
+        "type":"Party"
+     },
+     "relatedParties":[
+        {
+           "contactMediums":[
+              {
+                 "mediumType":"SecondaryPhone",
+                 "characteristic":{
+                    "previousPhoneNumber":"8290000000",
+                    "phoneNumber":"8290000000",
+                    "type":"ContactMediumCharacteristic"
+                 },
+                 "type":"ContactMedium"
+              },
+              {
+                 "mediumType":"PrimaryEmail",
+                 "characteristic":{
+                    "previousEmailAddress":"prueba@gmail.com",
+                    "emailAddress":"prueba@gmail.com",
+                    "type":"ContactMediumCharacteristic"
+                 },
+                 "type":"ContactMedium"
+              },
+              {
+                 "mediumType":"WorkPhone",
+                 "characteristic":{
+                    "previousPhoneNumber":"8290000000",
+                    "phoneNumber":"8290000000",
+                    "type":"ContactMediumCharacteristic"
+                 },
+                 "type":"ContactMedium"
+              },
+              {
+                 "mediumType":"Address",
+                 "characteristic":{
+                    "addressId":"50755727",
+                    "primaryAddress":"1ER MIRADOR DEL ARROYO 10",
+                    "isPhysical":"1",
+                    "isPostal":"1",
+                    "secondaryAddress":"ALTOS DE ARROYO HONDO II",
+                    "country":"106",
+                    "state":"Distrito Nacional",
+                    "city":"SANTO DOMINGO DE GUZMAN",
+                    "type":"ContactMediumCharacteristic"
+                 },
+                 "type":"ContactMedium"
+              }
+           ],
+           "id":"4468723",
+           "referredType":"Individual",
+           "role":"Firma Responsable",
+           "maritalStatus":"S",
+           "nationality":"DOMINICANA",
+           "birthDate":"16/05/1975",
+           "title":"Sr.",
+           "givenName":"Test ",
+           "middleName":"Test",
+           "familyName":"Test",
+           "gender":"Femenino",
+           "status":"initialized",
+           "individualIdentifications":[
+              {
+                 "identificationId":"000000000000",
+                 "identificationType":"Cedula",
+                 "issuingAuthority":"NA",
+                 "type":"Identification"
+              }
+           ],
+           "partyCharacteristics":[
+              {
+                 "value":{
+                    "occupationCode":"EMPLEADO (A) PUBLICO"
+                 },
+                 "type":"PartyCharacteristic",
+                 "name":"Professional Info",
+                 "valueType":"object"
+              },
+              {
+                 "value":"Test",
+                 "type":"PartyCharacteristic",
+                 "name":"Second Last Name",
+                 "valueType":"string"
+              },
+              {
+                 "value":"07/11/2023 13.58.50 PM",
+                 "type":"PartyCharacteristic",
+                 "name":"Role Effective Date",
+                 "valueType":"string"
+              },
+              {
+                 "value":"Yes",
+                 "type":"PartyCharacteristic",
+                 "name":"Contact Needs Update",
+                 "valueType":"string"
+              },
+              {
+                 "value":"07/11/2023 14.31.26 PM",
+                 "type":"PartyCharacteristic",
+                 "name":"Contact Last Modified Date",
+                 "valueType":"string"
+              }
+           ],
+           "type":"Party"
+        },
+        {
+           "contactMediums":[
+              {
+                 "mediumType":"PrimaryEmail",
+                 "characteristic":{
+                    "emailAddress":"test@gmail.com",
+                    "type":"ContactMediumCharacteristic"
+                 },
+                 "type":"ContactMedium"
+              },
+              {
+                 "mediumType":"PrimaryPhone",
+                 "characteristic":{
+                    "phoneNumber":"8290000000",
+                    "type":"ContactMediumCharacteristic"
+                 },
+                 "type":"ContactMedium"
+              },
+              {
+                 "mediumType":"WorkPhone",
+                 "characteristic":{
+                    "phoneNumber":"8290000000",
+                    "type":"ContactMediumCharacteristic"
+                 },
+                 "type":"ContactMedium"
+              },
+              {
+                 "mediumType":"AdditionalContact",
+                 "characteristic":{
+                    "phoneNumber":"8290000000",
+                    "name":"TEST",
+                    "relationship":"Tio (a)",
+                    "type":"ContactMediumCharacteristic"
+                 },
+                 "type":"ContactMedium"
+              },
+              {
+                 "mediumType":"Address",
+                 "characteristic":{
+                    "addressId":"51501477",
+                    "streetNumber":"2",
+                    "region":"ALTO DE LAS FLORES",
+                    "county":"DO",
+                    "streetName":"CALLE 1RA",
+                    "primaryAddress":"CALLE 1RA 2",
+                    "isPhysical":"1",
+                    "isPostal":"1",
+                    "country":"106",
+                    "state":"AZUA",
+                    "city":"AZUA DE COMPOSTELA",
+                    "type":"ContactMediumCharacteristic"
+                 },
+                 "type":"ContactMedium"
+              }
+           ],
+           "id":"0",
+           "referredType":"Individual",
+           "role":"Segunda Firma Responsable",
+           "maritalStatus":"S",
+           "nationality":"DOMINICANA",
+           "birthDate":"5/16/1975",
+           "title":"Sr.",
+           "givenName":"Test",
+           "middleName":"Test",
+           "familyName":"Test",
+           "gender":"Femenino",
+           "status":"initialized",
+           "individualIdentifications":[
+              {
+                 "identificationId":"000000000000",
+                 "identificationType":"Cedula",
+                 "issuingAuthority":"Organismos Nacionales",
+                 "type":"Identification"
+              }
+           ],
+           "partyCharacteristics":[
+              {
+                 "value":{
+                    "occupationCode":"EMPLEADO (A) PUBLICO"
+                 },
+                 "type":"PartyCharacteristic",
+                 "name":"Professional Info",
+                 "valueType":"object"
+              },
+              {
+                 "value":"Test",
+                 "type":"PartyCharacteristic",
+                 "name":"Second Last Name",
+                 "valueType":"string"
+              },
+              {
+                 "value":"9/14/2024 10.20.22 AM",
+                 "type":"PartyCharacteristic",
+                 "name":"Role Effective Date",
+                 "valueType":"string"
+              }
+           ],
+           "type":"Party"
+        }
+     ],
+     "type":"Customer"
+  }
+}
