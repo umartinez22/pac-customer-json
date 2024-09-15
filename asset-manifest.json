@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/pac-customer-json/static/css/main.94d493ed.css",
-    "main.js": "/pac-customer-json/static/js/main.6aab119a.js",
+    "main.js": "/pac-customer-json/static/js/main.ff941c5b.js",
     "static/js/453.f122d7f0.chunk.js": "/pac-customer-json/static/js/453.f122d7f0.chunk.js",
     "index.html": "/pac-customer-json/index.html",
     "main.94d493ed.css.map": "/pac-customer-json/static/css/main.94d493ed.css.map",
-    "main.6aab119a.js.map": "/pac-customer-json/static/js/main.6aab119a.js.map",
+    "main.ff941c5b.js.map": "/pac-customer-json/static/js/main.ff941c5b.js.map",
     "453.f122d7f0.chunk.js.map": "/pac-customer-json/static/js/453.f122d7f0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.94d493ed.css",
-    "static/js/main.6aab119a.js"
+    "static/js/main.ff941c5b.js"
   ]
 }
