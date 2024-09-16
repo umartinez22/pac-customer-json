@@ -12,13 +12,9 @@
 .app .input-container,
 .textarea,
 button {
-  width: 100%;
+  width: 99%;
 }
 
 .textarea {
-  height: 100%;
-}
-
-.input-container {
-  /* min-height: 600px; */
+  height: 99%;
 }
