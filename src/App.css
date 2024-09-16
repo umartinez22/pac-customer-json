@@ -17,4 +17,6 @@ button {
 
 .textarea {
   height: 99%;
+  min-height: 20px;
+    resize: none;
 }
