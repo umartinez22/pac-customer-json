@@ -15,6 +15,7 @@
 }
 
 .textarea {
+  max-height: 100% !important;
   height: 99%;
   min-height: 20px;
     resize: none;
