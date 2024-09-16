@@ -46,7 +46,7 @@ function App() {
   }, []);
 
   return (
-    <div className="app">
+    <div className="app content">
       <div className="input-container">
         <h1>Input</h1>
         <textarea
@@ -61,7 +61,7 @@ function App() {
           }}
         ></textarea>
         <button
-          className="mdc-button"
+          className="button is-fullwidth"
           onClick={(e) => {
             navigator.clipboard
               .readText()
@@ -73,8 +73,7 @@ function App() {
               });
           }}
         >
-          <div className="mdc-button__ripple"></div>
-          <span className="mdc-button__label">📄PASTE</span>
+          📄PASTE
         </button>
       </div>
       <div className="input-container">
@@ -91,14 +90,13 @@ function App() {
           )}
         ></textarea>
         <button
-          className="mdc-button"
+          className="button is-fullwidth"
           onClick={() => {
             document.getElementById("output").select();
             document.execCommand("copy");
           }}
         >
-          <div className="mdc-button__ripple"></div>
-          <span className="mdc-button__label">📝COPY</span>
+          📝COPY
         </button>
       </div>
     </div>
