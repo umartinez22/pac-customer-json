@@ -33,16 +33,19 @@ function transform(jsonString) {
   return renameProperties(jsonString);
 }
 
+function setUpContainerHeight() {
+  document.getElementsByClassName("input-container")[0].style.height =
+    window.innerHeight - 110 + "px";
+}
+
 function App() {
   let [dataJson, setDataJson] = useState({ ...data });
 
   useEffect(() => {
     window.addEventListener("resize", function () {
-      document.getElementsByClassName("input-container")[0].style.height =
-        window.innerHeight - 90 + "px";
+      setUpContainerHeight();
     });
-    document.getElementsByClassName("input-container")[0].style.height =
-      window.innerHeight - 90 + "px";
+    setUpContainerHeight();
   }, []);
 
   return (

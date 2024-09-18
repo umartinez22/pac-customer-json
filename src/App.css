@@ -4,6 +4,9 @@
   font-family: 'Roboto';
 }
 
+h1 {
+  margin: 16px;
+}
 .app {
   display: flex;
   flex-direction: row;
